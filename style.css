@@ -1,0 +1,7 @@
+:root{--bg:#0e0b16;--fg:#f2eefb;--muted:#b7aecb;--accent:#ff3d7f}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px}
+h1{font-size:2rem;margin:0 0 .5rem}h2{margin-top:2rem;font-size:1.2rem}
+a{color:var(--accent)}p,li{color:var(--muted)}
+nav{display:flex;gap:16px;margin-top:2rem}
+img.logo{width:96px;height:96px;border-radius:20px}
